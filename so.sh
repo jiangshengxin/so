@@ -24,14 +24,14 @@ function color(){
 }
 
 function copyright(){
-    echo "#####################"
-    color blue "   SSH Login Platform   "
-    echo "#####################"
+    echo "==============================================="
+    color blue "   SSH Login 提示,从远程主机退出命令:exit;   "
+    echo "==============================================="
     echo
 }
 
 function underline(){
-    echo "-----------------------------------------"
+    echo "--------------------------------------------"
 }
 
 function main(){
@@ -66,7 +66,7 @@ while [ True ];do
         ;;
 
         *)
-            echo "Input error!!"
+            echo "请输入有效的命令[1~999] or [q]!!"
         ;;
     esac
 done
